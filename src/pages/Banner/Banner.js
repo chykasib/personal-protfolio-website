@@ -1,6 +1,5 @@
 import React from "react";
 import "../Banner/Banner.css";
-import samplePDF1 from "../../asserts/resume of kasib chy.pdf";
 import image from "../../asserts/image.jpg";
 const Banner = () => {
   return (

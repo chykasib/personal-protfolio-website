@@ -47,7 +47,7 @@ span {
   font-size: 1.1rem;
 }
 .home-img img {
-  width: 60vw;
+  width: 120vw;
   background: var(--main-color);
   transition: 0.5s ease;
 }
