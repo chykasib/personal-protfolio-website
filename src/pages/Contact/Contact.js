@@ -25,6 +25,16 @@ const Left = styled.div`
   }
 `;
 
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
 const Form = styled.form`
   width: 500px;
   display: flex;
@@ -60,14 +70,6 @@ const Button = styled.button`
   padding: 20px;
 `;
 
-const Right = styled.div`
-  flex: 1;
-
-  @media only screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
 const Contact = () => {
   const ref = useRef();
   const [success, setSuccess] = useState(null);
@@ -94,11 +96,18 @@ const Contact = () => {
       );
   };
   return (
-    <Section className="bg-black mt-24">
+    <Section className="bg-black my-24">
       <Container>
         <Left>
+          <img
+            style={{ width: "600px", height: "600px" }}
+            alt="coding"
+            src="https://i.pinimg.com/originals/38/db/07/38db0791549a04e0139e90cbdb8a5f32.gif"
+          ></img>
+        </Left>
+        <Right>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <h2 className="text-white text-3xl">Contact Us</h2>
+            <h2 className="text-white text-3xl">Get In Touch</h2>
             <Input placeholder="Name" name="name" className="text-black" />
             <Input placeholder="Email" name="email" className="text-black" />
             <TextArea
@@ -111,8 +120,7 @@ const Contact = () => {
             {success &&
               "Your message has been sent. We'll get back to you soon :)"}
           </Form>
-        </Left>
-        <Right></Right>
+        </Right>
       </Container>
     </Section>
   );

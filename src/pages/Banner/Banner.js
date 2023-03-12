@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../Banner/Banner.css";
 import samplePDF1 from "../../asserts/resume of kasib chy.pdf";
 import image from "../../asserts/image.jpg";
@@ -19,26 +18,25 @@ const Banner = () => {
           websites and continuously improve my abilities.
         </p>
         <div className="social-media">
-          <Link to={""}>
+          <a href="https://www.facebook.com/chowdhury.kasib/">
             <i class="bx bxl-facebook"></i>
-          </Link>
-          <Link to={""}>
+          </a>
+          <a href="https://www.linkedin.com/in/kasib-mohammad-chowdhury-b4b2b5244/">
             <i class="bx bxl-linkedin"></i>
-          </Link>
-          <Link to={""}>
+          </a>
+          <a href="https://github.com/chykasib">
             <i class="bx bxl-github"></i>
-          </Link>
-          <Link to={""}>
-            <i class="bx bxl-twitter"></i>
-          </Link>
+          </a>
+          <a href="kasib.md.chy@gmail.com">
+            <i class="bx bxl-gmail"></i>
+          </a>
         </div>
-        <Link
-          onClick={() => window.open(samplePDF1)}
+        <a
+          href="https://drive.google.com/file/d/1YohfQ056klbdf7RmyJHT2zs8_sIqwshG/view?usp=share_link"
           className="btn-home text-black"
-          to={""}
         >
           View Resume
-        </Link>
+        </a>
       </div>
       <div className="home-img">
         <img src={image} alt="" />

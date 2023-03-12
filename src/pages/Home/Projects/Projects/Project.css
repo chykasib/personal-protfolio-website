@@ -1,0 +1,74 @@
+.projects h2 {
+  margin-bottom: 5rem;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.btn-home {
+  display: inline-block;
+  justify-content: center;
+  padding: 1rem 1rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.btn-home:hover {
+  box-shadow: none;
+}
+.btn-f {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: black;
+  justify-content: space-evenly;
+}
+.projects-container .projects-box {
+  flex: 1 1 30rem;
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.projects-container .projects-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.projects-box img {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.projects-box h3 {
+  font-size: 2.5rem;
+  color: aqua;
+}
+
+.projects-box ul {
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  margin: 1rem 0 3rem;
+}
+
+.projects-box ul {
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  margin: 1rem 0 3rem;
+}

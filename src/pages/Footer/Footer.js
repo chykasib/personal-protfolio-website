@@ -8,7 +8,7 @@ const Footer = () => {
         <p>Copyright © 2023 - All Right Reserved By Chowdhury Kasib</p>
       </div>
       <div className="footer-iconTop">
-        <Link to={"/"}>
+        <Link to={"/banner"}>
           <i class="bx bx-up-arrow-alt"></i>
         </Link>
       </div>

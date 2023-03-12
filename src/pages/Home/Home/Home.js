@@ -5,7 +5,7 @@ import Footer from "../../Footer/Footer";
 import Projects from "../Projects/Projects/Projects";
 const Home = () => {
   return (
-    <div className="m-10">
+    <div className="my-20">
       {/* <About></About> */}
       <Banner></Banner>
       {/* <Skills></Skills> */}
