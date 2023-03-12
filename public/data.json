@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "tittle": "Keystone Cse Courses",
+      "image": "https://picsum.photos/id/1/300/200",
+      "bullets": [
+        "Single educational learning website",
+        "Users can log in via google, GitHub, or the email password system.",
+        "If the user login then the user downloads the course outline"
+      ],
+      "technologies": [
+        "react-bootstrap",
+        "react-router-Dom",
+        "react-pdf",
+        "firebase",
+        "react-pdf",
+        "react-toastify",
+        "react-toggle-dark-mode",
+        "express.js",
+        "vercel"
+      ],
+      "links": {
+        "live": "https://learning-cse.web.app/",
+        "server": "https://github.com/chykasib/learning-server-side-repo",
+        "client": "https://github.com/chykasib/learning-client-side-repo"
+      }
+    },
+    {
+      "id": 2,
+      "title": "T-phone-reseller-shop",
+      "image": "https://picsum.photos/id/2/300/200",
+      "bullets": [
+        "Simple e-commerce website with buyer login via google and product purchasing functionality.",
+        "A Seller login by email and password. The user can add and delete any product if the admin verifies the seller",
+        "Full Website controlled by admin. Admin can delete any user or seller."
+      ],
+      "technologies": [
+        "tailwindCss",
+        "react-router-Dom",
+        "axios",
+        "firebase",
+        "daisyui",
+        "react-hook-form",
+        "react-toggle-dark-mode",
+        "express.js",
+        "vercel",
+        "react-hot-toast",
+        "mongodb",
+        "jsonwebtoken"
+      ],
+      "links": {
+        "live": "https://t-phone-reseller-shop.web.app/",
+        "server": "https://github.com/chykasib/phone-reseller-server-repo",
+        "client": "https://github.com/chykasib/phone-reseller-client-repo"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Rock Cloud Kitchen",
+      "image": "",
+      "bullets": [
+        "Simple personalized homemade food shop and delivery services.",
+        "Users can log in by GitHub, google, or email-password system.",
+        "If the user logs in, the user can add a review, see his/her review, and delete the review."
+      ],
+      "technologies": [
+        "react-bootstrap",
+        "react-router-Dom",
+        "react-pdf",
+        "firebase",
+        "react-pdf",
+        "react-toastify",
+        "react-toggle-dark-mode",
+        "express.js",
+        "vercel"
+      ],
+      "links": {
+        "live": "https://rock-cloud-kitchen.web.app/",
+        "server": "v",
+        "client": "https://github.com/chykasib/cloud-kitchen-client-repo"
+      }
+    }
+  ]
+}
