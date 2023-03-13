@@ -26,9 +26,6 @@ const Banner = () => {
           <a href="https://github.com/chykasib">
             <i class="bx bxl-github"></i>
           </a>
-          <a href="kasib.md.chy@gmail.com">
-            <i class="bx bxl-gmail"></i>
-          </a>
         </div>
         <a
           href="https://drive.google.com/file/d/1YohfQ056klbdf7RmyJHT2zs8_sIqwshG/view?usp=share_link"

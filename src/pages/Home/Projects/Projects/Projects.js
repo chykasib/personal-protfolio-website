@@ -80,7 +80,7 @@ const Projects = () => {
         </div>
         <div className="projects-box">
           <img src={image3} alt="" />
-          <h3>Keystone Cse Courses</h3>
+          <h3>Service Review Website</h3>
           <ul>
             <li>
               Simple personalized homemade food shop and delivery services.
