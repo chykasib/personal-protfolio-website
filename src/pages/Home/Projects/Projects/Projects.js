@@ -44,10 +44,10 @@ const Projects = () => {
           <img src={image2} alt="" />
           <h3>T-phone-reseller-shop</h3>
           <ul>
-            <li>
+            {/* <li>
               Simple e-commerce website with buyer login via google and product
               purchasing functionality.
-            </li>
+            </li> */}
             <li>
               A Seller login by email and password. The user can add and delete
               any product if the admin verifies the seller
@@ -82,9 +82,9 @@ const Projects = () => {
           <img src={image3} alt="" />
           <h3>Service Review Website</h3>
           <ul>
-            <li>
+            {/* <li>
               Simple personalized homemade food shop and delivery services.
-            </li>
+            </li> */}
             <li>
               Users can log in by GitHub, google, or email-password system.
             </li>

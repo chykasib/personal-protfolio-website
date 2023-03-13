@@ -3,10 +3,10 @@
 }
 
 .projects-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 2rem;
 }
 .btn-home {
@@ -26,11 +26,17 @@
   box-shadow: none;
 }
 .btn-f {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 4rem;
   align-items: center;
   gap: 20px;
   color: black;
   justify-content: space-evenly;
+}
+
+.btn-f a {
+  font-size: 0.8rem;
 }
 .projects-container .projects-box {
   flex: 1 1 30rem;
