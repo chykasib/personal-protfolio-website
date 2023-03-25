@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../Banner/Banner";
 import Footer from "../../Footer/Footer";
+import Skills from "../../Skills/Skills";
 
 import Projects from "../Projects/Projects/Projects";
 const Home = () => {
